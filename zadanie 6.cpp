@@ -50,6 +50,7 @@ int main()
 		cout << "podaj liczbe od 1 do 6" << endl;
 	}
 	return 0;
+	cout << "polskaaa" <<endl;
 }
 
 

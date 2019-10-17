@@ -20,6 +20,8 @@ int main()
 		}
 	}
 	return 0;
+	
+	cout << "ooo baben" << end;
 }
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
