@@ -49,6 +49,7 @@ int main()
 	else {
 		cout << "podaj liczbe od 1 do 6" << endl;
 	}
+	cout << "git dziala";
 	return 0;
 }
 
