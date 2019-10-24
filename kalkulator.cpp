@@ -11,16 +11,16 @@ int main()
     switch(op)
     {
         case '+':
-            cout << num1+num2;
+            cout << num1+num2; // dodawanie
             break;
         case '-':
-            cout << num1-num2;
+            cout << num1-num2; //odejmowanie
             break;
         case '*':
-            cout << num1*num2;
+            cout << num1*num2; // mnozenie
             break;
         case '/':
-            cout << num1/num2;
+            cout << num1/num2; // dzielenie
             break;
         default:
 
