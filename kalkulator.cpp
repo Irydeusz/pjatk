@@ -4,30 +4,35 @@ int main()
 {
     char op;
     float num1, num2;
+    int a = 0;
+    int b=1;
     cout << "Podaj + - * /";
     cin >> op;
     cout << "podaj dwie liczby: ";
     cin >> num1 >> num2;
-    switch(op)
-    {
-        case '+':
-            cout <<"wynik:"<< num1+num2;
-            break;
-        case '-':
-            cout << num1-num2;
-            break;
-        case '*':
-            cout << num1*num2;
-            break;
-        case '/':
-            cout << num1/num2;
-            break;
-        default:
+    while(b!=a) {
+        switch (op) {
+            case '+':
+                cout << "wynik:" << num1 + num2;
+                break;
+            case '-':
+                cout << num1 - num2;
+                break;
+            case '*':
+                cout << num1 * num2;
+                break;
+            case '/':
+                cout << num1 / num2;
+                break;
+            default:
 
-            cout << "zly operator";
-            break;
-        cout << "wenezuela ma fajna ekonomie nom" << endl;
-        
+                cout << "zly operator";
+                break;
+                cout << "wenezuela ma fajna ekonomie nom" << endl;
+
+        }
+        cout <<"podaj 1 by kotynuowac 0 by wyjsc";
+        cin >> a;
     }
     return 0;
 }
