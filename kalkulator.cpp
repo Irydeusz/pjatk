@@ -8,6 +8,7 @@ int main()
     cin >> op;
     cout << "podaj dwie liczby: ";
     cin >> num1 >> num2;
+
     switch(op)
     {
         case '+':
