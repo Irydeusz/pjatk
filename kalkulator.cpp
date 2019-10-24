@@ -10,21 +10,22 @@ int main()
     cin >> op;
     cout << "podaj dwie liczby: ";
     cin >> num1 >> num2;
-    while(b!=a) {
-        switch (op) {
-            case '+':
-                cout << "wynik:" << num1 + num2;
-                break;
-            case '-':
-                cout << num1 - num2;
-                break;
-            case '*':
-                cout << num1 * num2;
-                break;
-            case '/':
-                cout << num1 / num2;
-                break;
-            default:
+
+    switch(op)
+    {
+        case '+':
+            cout <<"Wynik to:"<<  num1+num2;
+            break;
+        case '-':
+            cout <<"Wynik to:"<< num1-num2;
+            break;
+        case '*':
+            cout <<"Wynik to:"<<  num1*num2;
+            break;
+        case '/':
+            cout << "Wynik to:"<< num1/num2;
+            break;
+        default;
 
                 cout << "zly operator";
                 break;
